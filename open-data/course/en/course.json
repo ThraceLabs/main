@@ -1,0 +1,141 @@
+{
+  "title": "Open Data",
+  "displayTitle": "Open Data",
+  "body": "<p>This course aims to enable you to find and use open data and gives you tools to advocate for open data.</p>",
+  "subtitle": "",
+  "description": "",
+  "instruction": "",
+  "_htmlClasses": "",
+  "_latestTrackingId": 2,
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "My answer",
+      "ariaLabel": "Hide correct answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_classes": "",
+  "_requireCompletionOf": -1,
+  "_lockType": "",
+  "_id": "course",
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [],
+    "_force": false,
+    "_isMenuDisabled": false
+  },
+  "_globals": {
+    "_accessibility": {
+      "skipNavigationText": "Skip navigation",
+      "_ariaLabels": {
+        "answeredIncorrectly": "You answered incorrectly",
+        "answeredCorrectly": "You answered correctly",
+        "selectedAnswer": "selected",
+        "unselectedAnswer": "not selected",
+        "skipNavigation": "Skip Navigation",
+        "previous": "Back",
+        "navigationDrawer": "Open course resources.",
+        "close": "Close",
+        "closeDrawer": "Close Drawer",
+        "closeResources": "Close resources",
+        "drawer": "Top of side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Completed",
+        "incomplete": "Incomplete",
+        "incorrect": "Incorrect",
+        "correct": "Correct",
+        "locked": "Locked",
+        "visited": "Visited"
+      }
+    },
+    "_components": {
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_narrative": {
+        "ariaRegion": "Slide show. Select the next button to progress.",
+        "previous": "{{#if title}}Back to {{title}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}}",
+        "next": "{{#if title}}Forward to {{title}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}}"
+      },
+      "_media": {
+        "ariaRegion": "Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.",
+        "skipToTranscript": "Skip to transcript"
+      },
+      "_hotgraphic": {
+        "ariaRegion": "Image with selectable areas. Select each button to show more information.",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_accordion": {
+        "ariaRegion": "List of expandable sections. Select each button to expand the content."
+      },
+      "_graphic": {
+        "ariaRegion": ""
+      },
+      "_matching": {
+        "ariaRegion": "Matching. Select from lists and then submit."
+      },
+      "_textinput": {
+        "ariaRegion": "Text input. Type your answer and then submit."
+      },
+      "_mcq": {
+        "ariaRegion": "Multiple choice question"
+      },
+      "_gmcq": {
+        "ariaRegion": "Multiple choice question"
+      },
+      "_assessmentResults": {
+        "ariaRegion": "Assessment results."
+      },
+      "_slider": {
+        "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
+        "labelStart": "Start of the scale",
+        "labelEnd": "End of the scale"
+      }
+    },
+    "_extensions": {
+      "_trickle": {
+        "incompleteContent": "There is incomplete content above. You must complete this before you can proceed through the course."
+      },
+      "_pageLevelProgress": {
+        "pageLevelProgress": "Page sections",
+        "pageLevelProgressIndicatorBar": "Page progress. Use this to listen to the list of regions in this topic and whether they're completed. You can jump directly to any that are incomplete or which sound particularly interesting. {{percentageComplete}}%",
+        "pageLevelProgressMenuBar": "Page completion {{percentageComplete}}%",
+        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+        "optionalContent": "Optional content"
+      },
+      "_resources": {
+        "resources": "Additional resources."
+      },
+      "_languagePicker": {
+        "navigationBarLabel": "Select course language",
+        "languageSelector": "Language selector"
+      }
+    },
+    "_menu": {
+      "_boxMenu": {
+        "durationLabel": "Duration:"
+      }
+    }
+  },
+  "_type": "course"
+}

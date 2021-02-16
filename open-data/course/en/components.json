@@ -1,0 +1,44 @@
+[
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Data spectrum",
+    "displayTitle": "Data spectrum",
+    "body": "<p>Data sits on a spectrum, let's see</p>",
+    "_id": "602c3104cab689119096175e",
+    "_parentId": "602c3103cab689119096175d",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "New Component Title",
+    "displayTitle": "New Component Title",
+    "body": "",
+    "_id": "602c3279cab6891190961763",
+    "_parentId": "602c3268cab6891190961762",
+    "_type": "component",
+    "_layout": "full"
+  }
+]
